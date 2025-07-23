@@ -1,0 +1,30 @@
+{
+    "botuuid": "QGBOT-001",
+    "slist": [
+        {
+            "common": {
+                "start_time": "09:15:10",
+                "end_time": "15:25:00",
+                "underlying": "MIDCPNIFTY"
+            },
+            "alpha": {
+                "sigmult": 0.5,
+                "smoother": {
+                    "TS" : {"enabled": true, "type" : "STABLEWIN", "timeperiod" : 60 },                        
+                    "UL" : {"enabled": true, "type" : "EMA", "timeperiod" : 180 },
+                    "CP" : {"enabled": true, "type" : "AGG", "timeperiod" : 180 }
+                }
+            },
+            "execution": {
+                "strategy_name": "AutoSFut",
+                "exchange": "NFO",
+                "product_type": "MIS",
+                "order_type": "MARKET",
+                "opt_trd_offset": 2,
+                "quote_lots": 1,
+                "max_pos" : 1,
+                "stop_loss": 3000
+            }
+        }
+    ]
+}

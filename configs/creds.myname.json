@@ -1,0 +1,7 @@
+{
+    "user_id": "ABCD",
+    "password": "dummy_password",
+    "totp_key": "keykey123456789",
+    "api_key": "1234567890abcdef",
+    "api_secret": "this is the real secret",
+}
