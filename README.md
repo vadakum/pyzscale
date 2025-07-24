@@ -5,7 +5,7 @@ This is an example project for a hobbyist algo-trader or a developer looking to 
 
 ### What is the project about
 I am a C++ developer who started liking Python for its versatility. My trader friend wanted to automate his "secret sauce" trading logic – a sort of weighing balance (hence the project name, pyzscale, because "weighing_balance_bot" just didn't roll off the tongue). He needed something to play nice with broker APIs and their REST-based services and WebSockets. "Aha!" I thought, "This could be perfect way to learn more about Python and its babies (the packages)!". 
-Btw, this entire thing took ~3 Months to build (@ ~4 hours per day). Due to time constraints there is no documentation, I guess now the AI tools an quickly generate them for you.
+Btw, this entire thing took ~3 Months to build (@ ~4 hours per day). Due to time constraints there is no documentation, I guess now the AI tools can quickly generate them for you.
 
 Now, fair warning: if you're a Python purist, you might find my code a tad... un-pythonic. But anyways, I loved coding the entire thing. 
 
