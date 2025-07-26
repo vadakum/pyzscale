@@ -1,6 +1,4 @@
-16 09 * * 1-5 /home/qoptrprod/apps/pyapps/prod_start_downloader.sh
-35 15 * * 1-5 /home/qoptrprod/apps/pyapps/prod_stop_downloader.sh
-
+#### Cron Entries###
 #---- pyzscale ----
 47 08 * * 1-5 /home/qoptrprod/apps/pyzscale/scripts/prod.instrdownloader.sh
 10 09 * * 1-5 /home/qoptrprod/apps/pyzscale/scripts/prod.start.md.sh
